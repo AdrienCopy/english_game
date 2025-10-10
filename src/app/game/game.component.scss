@@ -1,0 +1,33 @@
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    width: 320px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    input {
+        padding: 0.5rem;
+        width: 80%;
+        border-radius: 0.5rem;
+        border: 1px solid #ccc;
+        margin-top: 1rem;
+        text-align: center;
+      }
+      button {
+        margin-top: 1rem;
+        background: #66a6ff;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #5590e6;
+      }
+  }
+
+
+  
+  

@@ -1,0 +1,30 @@
+<div class="return">
+    <a routerLink="/" class="btn">Home</a> 
+</div>
+ 
+
+<div class="dictionary">
+    <h1>Irregular Verbs Dictionary</h1>
+
+    <input
+    type="text"
+    placeholder="Search for a verb..."
+    [(ngModel)]="searchText"
+    />
+
+
+    <table>
+        <thead>
+          <tr>
+            <th>Infinitif</th>
+            <th>Past Simple</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let verb of filteredVerbs">
+            <td>{{ verb.base }}</td>
+            <td>{{ verb.past }}</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
