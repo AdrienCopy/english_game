@@ -11,6 +11,12 @@ h1, h2, h3 {
   font-weight: 600;
 }
 
+@media (max-width: 600px) {
+    input {
+        font-size: 16px;
+    }   
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -39,4 +45,6 @@ a {
         }
     }
 }
+
+
   

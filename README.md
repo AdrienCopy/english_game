@@ -1,3 +1,8 @@
+# English irregular verbs
+
+This project is a small game to practice **English irregular verbs**.  
+I quickly created it as part of my English classes to practice and have some fun with Angular. 
+
 # IrregularVerbsGame
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
