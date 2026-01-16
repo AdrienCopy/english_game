@@ -1,0 +1,178 @@
+[
+    {
+      "word": "essay",
+      "type": "noun",
+      "translation": "essai, rédaction",
+      "definition": "A short piece of writing on a particular subject.",
+      "example": "I wrote an essay for my English class."
+    },
+    {
+      "word": "penny",
+      "type": "noun",
+      "translation": "pièce, centime",
+      "definition": "A small unit of money, especially in the UK or the US.",
+      "example": "I don't have a penny left."
+    },
+    {
+      "word": "fear",
+      "type": "noun",
+      "translation": "peur",
+      "definition": "The feeling of being afraid.",
+      "example": "She has a fear of heights."
+    },
+    {
+      "word": "farming",
+      "type": "noun",
+      "translation": "agriculture",
+      "definition": "The activity of growing crops or raising animals.",
+      "example": "Farming is very important in this region."
+    },
+    {
+      "word": "allow",
+      "type": "verb",
+      "translation": "permettre",
+      "definition": "To let someone do something.",
+      "example": "My parents allow me to go out."
+    },
+    {
+      "word": "borrow",
+      "type": "verb",
+      "translation": "emprunter",
+      "definition": "To take something with the intention of giving it back.",
+      "example": "Can I borrow your pen?"
+    },
+    {
+      "word": "ugly",
+      "type": "adjective",
+      "translation": "laid, moche",
+      "definition": "Not pleasant to look at.",
+      "example": "The building is old and ugly."
+    },
+    {
+      "word": "downstairs",
+      "type": "adverb",
+      "translation": "en bas",
+      "definition": "On a lower floor of a building.",
+      "example": "She is waiting downstairs."
+    },
+    {
+      "word": "aboard",
+      "type": "adverb",
+      "translation": "à bord",
+      "definition": "On or into a ship, plane, or vehicle.",
+      "example": "We went aboard the ship."
+    },
+    {
+      "word": "ship",
+      "type": "noun",
+      "translation": "navire, bateau",
+      "definition": "A large boat used for travel or transport.",
+      "example": "The ship left the port early."
+    },
+    {
+      "word": "asleep",
+      "type": "adjective",
+      "translation": "endormi",
+      "definition": "Sleeping.",
+      "example": "The baby is asleep."
+    },
+    {
+      "word": "further",
+      "type": "adjective",
+      "translation": "plus loin, supplémentaire",
+      "definition": "At a greater distance or more advanced.",
+      "example": "We need further information."
+    },
+    {
+      "word": "ceiling",
+      "type": "noun",
+      "translation": "plafond",
+      "definition": "The top inside surface of a room.",
+      "example": "The ceiling is very high."
+    },
+    {
+      "word": "laughter",
+      "type": "noun",
+      "translation": "rire",
+      "definition": "The sound of people laughing.",
+      "example": "The room was full of laughter."
+    },
+    {
+      "word": "achieve",
+      "type": "verb",
+      "translation": "atteindre, accomplir",
+      "definition": "To succeed in doing something after effort.",
+      "example": "She achieved her goals."
+    },
+    {
+      "word": "towards",
+      "type": "preposition",
+      "translation": "vers",
+      "definition": "In the direction of something.",
+      "example": "He walked towards the door."
+    },
+    {
+      "word": "blow",
+      "type": "verb",
+      "translation": "souffler",
+      "definition": "To move air or be moved by air.",
+      "example": "The wind blows strongly today."
+    },
+    {
+      "word": "feature",
+      "type": "noun",
+      "translation": "caractéristique",
+      "definition": "An important or interesting part of something.",
+      "example": "This phone has a new feature."
+    },
+    {
+      "word": "amazing",
+      "type": "adjective",
+      "translation": "incroyable",
+      "definition": "Very surprising or impressive.",
+      "example": "The view is amazing."
+    },
+    {
+      "word": "ankle",
+      "type": "noun",
+      "translation": "cheville",
+      "definition": "The joint between the foot and the leg.",
+      "example": "He hurt his ankle while running."
+    },
+    {
+      "word": "poverty",
+      "type": "noun",
+      "translation": "pauvreté",
+      "definition": "The state of being very poor.",
+      "example": "Many people live in poverty."
+    },
+    {
+      "word": "awful",
+      "type": "adjective",
+      "translation": "horrible",
+      "definition": "Very bad or unpleasant.",
+      "example": "The weather is awful today."
+    },
+    {
+      "word": "climb",
+      "type": "verb",
+      "translation": "grimper",
+      "definition": "To go up something using your hands and feet.",
+      "example": "They climb the mountain every year."
+    },
+    {
+      "word": "likely",
+      "type": "adjective",
+      "translation": "probable",
+      "definition": "Something that will probably happen.",
+      "example": "It is likely to rain."
+    },
+    {
+      "word": "afford",
+      "type": "verb",
+      "translation": "se permettre",
+      "definition": "To have enough money to buy something.",
+      "example": "I can't afford a new car."
+    }
+  ]
+  

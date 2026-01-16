@@ -1,0 +1,36 @@
+.voc {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: 320px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.voc table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 90%;
+}
+.voc th, .voc td {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+}
+.voc th {
+  background: #66a6ff;
+  color: white;
+}
+.voc tr:nth-child(even) {
+  background: #f2f2f2;
+}
+.voc input {
+  padding: 0.5rem;
+  width: 80%;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  margin: 1rem;
+  text-align: center;
+}
+.voc .word-row {
+  cursor: pointer;
+}

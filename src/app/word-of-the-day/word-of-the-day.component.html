@@ -1,0 +1,39 @@
+<div class="return">
+    <a routerLink="/" class="btn">Home</a> 
+</div>
+
+<div class="voc">
+    <h1>Vocabulary</h1>
+
+    <input
+        type="text"
+        placeholder="Search..."
+        [(ngModel)]="searchText"
+    />
+
+    <table class="word-table">
+        <thead>
+          <tr>
+            <th>English</th>
+            <th>Français</th>
+          </tr>
+        </thead>
+      
+        <tbody>
+            <ng-container *ngFor="let w of filteredWords">
+              <tr (click)="selectWord(w)" class="word-row">
+                <td>{{ w.word }}</td>
+                <td>{{ w.translation }}</td>
+              </tr>
+        
+              <tr *ngIf="selectedWord === w" class="details">
+                <td colspan="2">
+                  <p><strong>Type :</strong> {{ w.type }}</p>
+                  <p><strong>Definition :</strong> {{ w.definition }}</p>
+                  <p><strong>Example :</strong> {{ w.example }}</p>
+                </td>
+              </tr>
+            </ng-container>
+          </tbody>
+      </table>
+</div>

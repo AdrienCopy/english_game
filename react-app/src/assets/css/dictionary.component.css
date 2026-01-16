@@ -1,0 +1,33 @@
+.dictionary {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: 320px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.dictionary table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 90%;
+}
+.dictionary th, .dictionary td {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+}
+.dictionary th {
+  background: #66a6ff;
+  color: white;
+}
+.dictionary tr:nth-child(even) {
+  background: #f2f2f2;
+}
+.dictionary input {
+  padding: 0.5rem;
+  width: 80%;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  margin: 1rem;
+  text-align: center;
+}
