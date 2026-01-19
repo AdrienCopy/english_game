@@ -173,6 +173,90 @@
       "translation": "se permettre",
       "definition": "To have enough money to buy something.",
       "example": "I can't afford a new car."
+    },
+    {
+      "word": "pop",
+      "type": "verb / noun",
+      "translation": "éclater / pop",
+      "definition": "To make a sudden short sound or to appear suddenly.",
+      "example": "The balloon will pop if you touch it."
+    },
+    {
+      "word": "breakfast",
+      "type": "noun",
+      "translation": "petit-déjeuner",
+      "definition": "The first meal of the day.",
+      "example": "I usually have coffee and toast for breakfast."
+    },
+    {
+      "word": "cupboard",
+      "type": "noun",
+      "translation": "placard",
+      "definition": "A piece of furniture with shelves for storing things.",
+      "example": "The plates are in the cupboard."
+    },
+    {
+      "word": "raise",
+      "type": "verb",
+      "translation": "lever / élever",
+      "definition": "To lift something to a higher position or take care of someone while they grow.",
+      "example": "She raised her hand to ask a question."
+    },
+    {
+      "word": "fill",
+      "type": "verb",
+      "translation": "remplir",
+      "definition": "To make something full.",
+      "example": "Please fill the glass with water."
+    },
+    {
+      "word": "tall",
+      "type": "adjective",
+      "translation": "grand (en hauteur)",
+      "definition": "Having a great height.",
+      "example": "He is very tall for his age."
+    },
+    {
+      "word": "involve",
+      "type": "verb",
+      "translation": "impliquer",
+      "definition": "To include something as a necessary part or result.",
+      "example": "This job involves working with people."
+    },
+    {
+      "word": "childhood",
+      "type": "noun",
+      "translation": "enfance",
+      "definition": "The period of being a child.",
+      "example": "She had a happy childhood."
+    },
+    {
+      "word": "shall",
+      "type": "modal verb",
+      "translation": "devoir / futur (formel)",
+      "definition": "Used to express future actions or strong intentions (formal).",
+      "example": "We shall meet again."
+    },
+    {
+      "word": "fulfill",
+      "type": "verb",
+      "translation": "accomplir / réaliser",
+      "definition": "To achieve something desired or promised.",
+      "example": "He fulfilled his dream of becoming a teacher."
+    },
+    {
+      "word": "aboard",
+      "type": "adverb / preposition",
+      "translation": "à bord",
+      "definition": "On or onto a ship, plane, or vehicle.",
+      "example": "Welcome aboard the train."
+    },
+    {
+      "word": "instead",
+      "type": "adverb",
+      "translation": "au lieu de",
+      "definition": "In place of something else.",
+      "example": "I didn’t take the bus; I walked instead."
     }
   ]
   
