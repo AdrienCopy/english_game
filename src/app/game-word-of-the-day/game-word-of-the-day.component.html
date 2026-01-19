@@ -1,0 +1,23 @@
+<div class="return">
+    <a routerLink="/" class="btn">Home</a> 
+</div>
+ 
+<div class="card" *ngIf="currentWord">
+    <h2>🧠 Words of the day Game</h2>
+    <p>in french : <strong>{{ currentWord.translation }}</strong></p>
+  
+    <input
+      [(ngModel)]="userAnswer"
+      placeholder="past simple"
+      (keyup.enter)="checkAnswer()"
+    />
+  
+    <button (click)="checkAnswer()">Validate</button>
+  
+    <p [style.color]="feedback.includes('✅') ? 'green' : 'red'">{{ feedback }}</p>
+    <p>Score : {{ score }}</p>
+
+    
+</div>
+  
+  
