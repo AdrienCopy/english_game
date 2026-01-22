@@ -79,7 +79,6 @@ export class GameWordOfTheDayComponent {
       const delay = Math.min(4, this.queue.length);
       this.queue.splice(delay, 0, this.currentWord);
     }
-    console.log(this.queue);
     setTimeout(() => this.nextWord(), 1300);
   }
 }
