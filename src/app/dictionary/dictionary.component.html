@@ -18,13 +18,22 @@
           <tr>
             <th>Infinitif</th>
             <th>Past Simple</th>
+            <th>Past Participle</th>
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let verb of filteredVerbs">
-            <td>{{ verb.base }}</td>
-            <td>{{ verb.past }}</td>
-          </tr>
+          <ng-container *ngFor="let verb of filteredVerbs">
+            <tr (click)="selectVerb(verb)" [class.selected]="selectedVerb === verb">
+              <td>{{ verb.base }}</td>
+              <td>{{ verb.past }}</td>
+              <td>{{ verb.pastParticiple}}</td>
+            </tr>
+            <tr *ngIf="selectedVerb === verb">
+              <td colspan="3" class="translation">
+                {{ verb.translation }}
+              </td>
+            </tr>
+          </ng-container>
         </tbody>
       </table>
   </div>
