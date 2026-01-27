@@ -320,6 +320,62 @@
       "translation": "assez",
       "definition": "As much as is needed.",
       "example": "We have enough time to finish."
+    },
+    {
+      "word": "wise",
+      "type": "adjective",
+      "translation": "sage",
+      "definition": "Having or showing experience, knowledge, and good judgment.",
+      "example": "She is a wise person who always gives good advice."
+    },
+    {
+      "word": "upon",
+      "type": "preposition",
+      "translation": "sur / à propos de",
+      "definition": "Used to show something is on or immediately after something else.",
+      "example": "He placed the book upon the table."
+    },
+    {
+      "word": "wild",
+      "type": "adjective",
+      "translation": "sauvage",
+      "definition": "Living or growing in the natural environment, not domesticated.",
+      "example": "They saw wild animals in the forest."
+    },
+    {
+      "word": "shoulder",
+      "type": "noun",
+      "translation": "épaule",
+      "definition": "The part of the body between the neck and the arm.",
+      "example": "He hurt his shoulder while playing football."
+    },
+    {
+      "word": "healthy",
+      "type": "adjective",
+      "translation": "en bonne santé / sain",
+      "definition": "Being in good physical or mental condition, or good for your health.",
+      "example": "She eats healthy food and exercises every day."
+    },
+    {
+      "word": "narrative",
+      "type": "adjective",
+      "translation": "narratif",
+      "definition": "Related to the telling of a story.",
+      "example": "The book uses a strong narrative style."
+    },
+    {
+      "word": "statement",
+      "type": "noun",
+      "translation": "déclaration / affirmation",
+      "definition": "A definite or clear expression of something in speech or writing.",
+      "example": "The company released an official statement."
+    },
+    {
+      "word": "crowd",
+      "type": "noun",
+      "translation": "foule",
+      "definition": "A large group of people gathered together.",
+      "example": "A crowd gathered in front of the concert hall."
     }
     
   ]
