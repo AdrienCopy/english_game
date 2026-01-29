@@ -8,7 +8,7 @@
   
     <input
       [(ngModel)]="userAnswer"
-      placeholder="past simple"
+      placeholder="past simple, past participle"
       (keyup.enter)="checkAnswer()"
     />
   
@@ -16,6 +16,11 @@
   
     <p [style.color]="feedback.includes('✅') ? 'green' : 'red'">{{ feedback }}</p>
     <p>Score : {{ score }}</p>
+
+    <p *ngIf="countdown !== null" class="countdown">
+      Next word in {{ countdown }}...
+    </p>
+    
 
     
 </div>

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 interface Verb {
   base: string;
@@ -13,7 +14,7 @@ interface Verb {
   selector: 'app-game',
   templateUrl: './game.component.html',
   styleUrls: ['./game.component.scss'],
-  imports: [FormsModule, RouterModule]
+  imports: [FormsModule, RouterModule, CommonModule]
 })
 export class GameComponent implements OnInit {
   verbs: Verb[] = [
@@ -120,6 +121,8 @@ export class GameComponent implements OnInit {
   feedback: string = '';
   score: number = 0;
   queue: Verb[] = []; 
+  countdown: number | null = null;
+  countdownInterval: any;
 
   ngOnInit() {
     this.queue = [...this.verbs]; 
@@ -141,15 +144,47 @@ export class GameComponent implements OnInit {
   }
 
   checkAnswer() {
-    if (this.userAnswer.trim().toLowerCase() === this.currentVerb.past.toLowerCase()) {
+    const userParts = this.userAnswer
+      .toLowerCase()
+      .split(',')
+      .map(p => p.trim())
+      .filter(p => p.length > 0);
+  
+    const correctPast = this.currentVerb.past.toLowerCase();
+    const correctParticiple = this.currentVerb.pastParticiple.toLowerCase();
+  
+    const isCorrect =
+      userParts.length === 2 &&
+      userParts.includes(correctPast) &&
+      userParts.includes(correctParticiple);
+  
+    if (isCorrect) {
       this.feedback = '✅ Correct !';
       this.score++;
     } else {
-      this.feedback = `❌ Mauvaise réponse : ${this.currentVerb.past}`;
-      //console.log('Reinserting verb into queue:', this.currentVerb);
+      this.feedback = `❌ Mauvaise réponse : ${correctPast}, ${correctParticiple}`;
       this.queue.push(this.currentVerb);
     }
+  
+    this.startCountdown(5);
 
-    setTimeout(() => this.newVerb(), 1500);
-  }
+
+    }
+
+    startCountdown(seconds: number) {
+      this.countdown = seconds;
+    
+      this.countdownInterval = setInterval(() => {
+        if (this.countdown !== null) {
+          this.countdown--;
+    
+          if (this.countdown === 0) {
+            clearInterval(this.countdownInterval);
+            this.countdown = null;
+            this.newVerb();
+          }
+        }
+      }, 1000);
+    }
+  
 }

@@ -376,7 +376,66 @@
       "translation": "foule",
       "definition": "A large group of people gathered together.",
       "example": "A crowd gathered in front of the concert hall."
-    }
+    },
+    [
+      {
+        "word": "avoid",
+        "type": "verb",
+        "translation": "éviter",
+        "definition": "To stay away from someone or something.",
+        "example": "I try to avoid eating too much sugar."
+      },
+      {
+        "word": "aching",
+        "type": "adjective / verb",
+        "translation": "douloureux / faire mal",
+        "definition": "Feeling or causing a continuous dull pain.",
+        "example": "My legs are aching after the long walk."
+      },
+      {
+        "word": "ache",
+        "type": "verb / noun",
+        "translation": "faire mal / douleur",
+        "definition": "To feel a continuous dull pain, or the pain itself.",
+        "example": "My head aches after a long day."
+      },
+      {
+        "word": "benefit",
+        "type": "noun",
+        "translation": "avantage / bénéfice",
+        "definition": "A good or helpful result or effect.",
+        "example": "Exercise has many health benefits."
+      },
+      {
+        "word": "fall",
+        "type": "noun",
+        "translation": "chute",
+        "definition": "An act of falling or dropping down.",
+        "example": "He was injured after a fall."
+      },
+      {
+        "word": "gap",
+        "type": "noun",
+        "translation": "écart / fossé",
+        "definition": "A space or difference between two things.",
+        "example": "There is a big gap between theory and practice."
+      },
+      {
+        "word": "oven",
+        "type": "noun",
+        "translation": "four",
+        "definition": "An enclosed appliance used for cooking food.",
+        "example": "Put the cake in the oven for 30 minutes."
+      },
+      {
+        "word": "neither",
+        "type": "determiner / pronoun",
+        "translation": "ni l’un ni l’autre",
+        "definition": "Not one nor the other of two things.",
+        "example": "Neither answer is correct."
+      }
+    ]
+    
     
   ]
   
