@@ -377,65 +377,152 @@
       "definition": "A large group of people gathered together.",
       "example": "A crowd gathered in front of the concert hall."
     },
-    [
-      {
+    {
         "word": "avoid",
         "type": "verb",
         "translation": "éviter",
         "definition": "To stay away from someone or something.",
         "example": "I try to avoid eating too much sugar."
-      },
-      {
+    },
+    {
         "word": "aching",
         "type": "adjective / verb",
         "translation": "douloureux / faire mal",
         "definition": "Feeling or causing a continuous dull pain.",
         "example": "My legs are aching after the long walk."
-      },
-      {
+    },
+    {
         "word": "ache",
         "type": "verb / noun",
         "translation": "faire mal / douleur",
         "definition": "To feel a continuous dull pain, or the pain itself.",
         "example": "My head aches after a long day."
-      },
-      {
+    },
+    {
         "word": "benefit",
         "type": "noun",
         "translation": "avantage / bénéfice",
         "definition": "A good or helpful result or effect.",
         "example": "Exercise has many health benefits."
-      },
-      {
+    },
+    {
         "word": "fall",
         "type": "noun",
         "translation": "chute",
         "definition": "An act of falling or dropping down.",
         "example": "He was injured after a fall."
-      },
-      {
+    },
+    {
         "word": "gap",
         "type": "noun",
         "translation": "écart / fossé",
         "definition": "A space or difference between two things.",
         "example": "There is a big gap between theory and practice."
-      },
-      {
+    },
+    {
         "word": "oven",
         "type": "noun",
         "translation": "four",
         "definition": "An enclosed appliance used for cooking food.",
         "example": "Put the cake in the oven for 30 minutes."
-      },
-      {
+    },
+    {
         "word": "neither",
         "type": "determiner / pronoun",
         "translation": "ni l’un ni l’autre",
         "definition": "Not one nor the other of two things.",
         "example": "Neither answer is correct."
-      }
-    ]
-    
-    
+    },
+    {
+    "word": "thirsty",
+    "type": "adj",
+    "translation": "assoiffé",
+    "definition": "feeling a need to drink",
+    "example": "I am very thirsty after running."
+  },
+  {
+    "word": "backwards",
+    "type": "adv",
+    "translation": "en arrière",
+    "definition": "towards the back; in reverse",
+    "example": "He walked backwards carefully."
+  },
+  {
+    "word": "request",
+    "type": "n",
+    "translation": "demande",
+    "definition": "an act of asking politely",
+    "example": "She made a request for help."
+  },
+  {
+    "word": "elsewhere",
+    "type": "adv",
+    "translation": "ailleurs",
+    "definition": "in another place",
+    "example": "He decided to live elsewhere."
+  },
+  {
+    "word": "empty",
+    "type": "adj",
+    "translation": "vide",
+    "definition": "containing nothing",
+    "example": "The box is empty."
+  },
+  {
+    "word": "thought",
+    "type": "adv",
+    "translation": "pensivement",
+    "definition": "in a thoughtful way",
+    "example": "She looked at him thought fully."
+  },
+  {
+    "word": "fortunately",
+    "type": "adv",
+    "translation": "heureusement",
+    "definition": "by good luck",
+    "example": "Fortunately, nobody was hurt."
+  },
+  {
+    "word": "blank",
+    "type": "adj",
+    "translation": "vierge",
+    "definition": "without any content or marks",
+    "example": "The page is blank."
+  },
+  {
+    "word": "expect",
+    "type": "v",
+    "translation": "s'attendre à",
+    "definition": "to believe that something will happen",
+    "example": "I expect good results."
+  },
+  {
+    "word": "task",
+    "type": "n",
+    "translation": "tâche",
+    "definition": "a piece of work to be done",
+    "example": "This task is difficult."
+  },
+  {
+    "word": "few",
+    "type": "adj",
+    "translation": "peu de",
+    "definition": "a small number of",
+    "example": "I have few friends here."
+  },
+  {
+    "word": "a few",
+    "type": "adj",
+    "translation": "quelques",
+    "definition": "a small number, but enough",
+    "example": "I have a few questions."
+  },
+  {
+    "word": "aid",
+    "type": "n",
+    "translation": "aide",
+    "definition": "help or support",
+    "example": "Humanitarian aid arrived quickly."
+  }
   ]
   
