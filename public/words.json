@@ -434,95 +434,165 @@
         "example": "Neither answer is correct."
     },
     {
-    "word": "thirsty",
-    "type": "adj",
-    "translation": "assoiffé",
-    "definition": "feeling a need to drink",
-    "example": "I am very thirsty after running."
-  },
-  {
-    "word": "backwards",
-    "type": "adv",
-    "translation": "en arrière",
-    "definition": "towards the back; in reverse",
-    "example": "He walked backwards carefully."
-  },
-  {
-    "word": "request",
-    "type": "n",
-    "translation": "demande",
-    "definition": "an act of asking politely",
-    "example": "She made a request for help."
-  },
-  {
-    "word": "elsewhere",
-    "type": "adv",
-    "translation": "ailleurs",
-    "definition": "in another place",
-    "example": "He decided to live elsewhere."
-  },
-  {
-    "word": "empty",
-    "type": "adj",
-    "translation": "vide",
-    "definition": "containing nothing",
-    "example": "The box is empty."
-  },
-  {
-    "word": "thought",
-    "type": "adv",
-    "translation": "pensivement",
-    "definition": "in a thoughtful way",
-    "example": "She looked at him thought fully."
-  },
-  {
-    "word": "fortunately",
-    "type": "adv",
-    "translation": "heureusement",
-    "definition": "by good luck",
-    "example": "Fortunately, nobody was hurt."
-  },
-  {
-    "word": "blank",
-    "type": "adj",
-    "translation": "vierge",
-    "definition": "without any content or marks",
-    "example": "The page is blank."
-  },
-  {
-    "word": "expect",
-    "type": "v",
-    "translation": "s'attendre à",
-    "definition": "to believe that something will happen",
-    "example": "I expect good results."
-  },
-  {
-    "word": "task",
-    "type": "n",
-    "translation": "tâche",
-    "definition": "a piece of work to be done",
-    "example": "This task is difficult."
-  },
-  {
-    "word": "few",
-    "type": "adj",
-    "translation": "peu de",
-    "definition": "a small number of",
-    "example": "I have few friends here."
-  },
-  {
-    "word": "a few",
-    "type": "adj",
-    "translation": "quelques",
-    "definition": "a small number, but enough",
-    "example": "I have a few questions."
-  },
-  {
-    "word": "aid",
-    "type": "n",
-    "translation": "aide",
-    "definition": "help or support",
-    "example": "Humanitarian aid arrived quickly."
-  }
+        "word": "thirsty",
+        "type": "adj",
+        "translation": "assoiffé",
+        "definition": "feeling a need to drink",
+        "example": "I am very thirsty after running."
+    },
+    {
+      "word": "backwards",
+      "type": "adv",
+      "translation": "en arrière",
+      "definition": "towards the back; in reverse",
+      "example": "He walked backwards carefully."
+    },
+    {
+      "word": "request",
+      "type": "n",
+      "translation": "demande",
+      "definition": "an act of asking politely",
+      "example": "She made a request for help."
+    },
+    {
+      "word": "elsewhere",
+      "type": "adv",
+      "translation": "ailleurs",
+      "definition": "in another place",
+      "example": "He decided to live elsewhere."
+    },
+    {
+      "word": "empty",
+      "type": "adj",
+      "translation": "vide",
+      "definition": "containing nothing",
+      "example": "The box is empty."
+    },
+    {
+      "word": "thought",
+      "type": "adv",
+      "translation": "pensivement",
+      "definition": "in a thoughtful way",
+      "example": "She looked at him thought fully."
+    },
+    {
+      "word": "fortunately",
+      "type": "adv",
+      "translation": "heureusement",
+      "definition": "by good luck",
+      "example": "Fortunately, nobody was hurt."
+    },
+    {
+      "word": "blank",
+      "type": "adj",
+      "translation": "vierge",
+      "definition": "without any content or marks",
+      "example": "The page is blank."
+    },
+    {
+      "word": "expect",
+      "type": "v",
+      "translation": "s'attendre à",
+      "definition": "to believe that something will happen",
+      "example": "I expect good results."
+    },
+    {
+      "word": "task",
+      "type": "n",
+      "translation": "tâche",
+      "definition": "a piece of work to be done",
+      "example": "This task is difficult."
+    },
+    {
+      "word": "few",
+      "type": "adj",
+      "translation": "peu de",
+      "definition": "a small number of",
+      "example": "I have few friends here."
+    },
+    {
+      "word": "a few",
+      "type": "adj",
+      "translation": "quelques",
+      "definition": "a small number, but enough",
+      "example": "I have a few questions."
+    },
+    {
+      "word": "aid",
+      "type": "n",
+      "translation": "aide",
+      "definition": "help or support",
+      "example": "Humanitarian aid arrived quickly."
+    },
+    {
+      "word": "injury",
+      "type": "n",
+      "translation": "blessure",
+      "definition": "physical harm or damage to the body",
+      "example": "He suffered a serious injury during the match."
+    },
+    {
+      "word": "target",
+      "type": "n",
+      "translation": "cible",
+      "definition": "something that you aim at or try to achieve",
+      "example": "The target was clearly visible."
+    },
+    {
+      "word": "wound",
+      "type": "n",
+      "translation": "plaie",
+      "definition": "an injury caused by a cut or blow",
+      "example": "The soldier had a deep wound."
+    },
+    {
+      "word": "feed",
+      "type": "v",
+      "translation": "nourrir",
+      "definition": "to give food to a person or animal",
+      "example": "She feeds the cat every morning."
+    },
+    {
+      "word": "hide",
+      "type": "v",
+      "translation": "cacher",
+      "definition": "to put something where it cannot be seen",
+      "example": "He tried to hide the letter."
+    },
+    {
+      "word": "let",
+      "type": "v",
+      "translation": "laisser / permettre",
+      "definition": "to allow something to happen",
+      "example": "My parents let me go out."
+    },
+    {
+      "word": "injure",
+      "type": "v",
+      "translation": "blesser",
+      "definition": "to cause physical harm to someone",
+      "example": "He injured his leg while running."
+    },
+    {
+      "word": "get injured",
+      "type": "v",
+      "translation": "se blesser",
+      "definition": "to become hurt or wounded",
+      "example": "Several players got injured."
+    },
+    {
+      "word": "sweltering",
+      "type": "adj",
+      "translation": "étouffant",
+      "definition": "extremely hot and uncomfortable",
+      "example": "It was a sweltering summer day."
+    },
+    {
+      "word": "due",
+      "type": "v",
+      "translation": "être dû",
+      "definition": "expected or planned to happen",
+      "example": "The payment is due tomorrow."
+    }
   ]
   
