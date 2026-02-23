@@ -593,6 +593,62 @@
       "translation": "être dû",
       "definition": "expected or planned to happen",
       "example": "The payment is due tomorrow."
+    },
+    {
+      "word": "spelling",
+      "type": "n",
+      "translation": "orthographe",
+      "definition": "the way a word is written correctly",
+      "example": "Her spelling is very good."
+    },
+    {
+      "word": "spell",
+      "type": "v",
+      "translation": "épeler",
+      "definition": "to say or write the letters of a word in the correct order",
+      "example": "Can you spell your name?"
+    },
+    {
+      "word": "translation",
+      "type": "n",
+      "translation": "traduction",
+      "definition": "the act of changing words into another language",
+      "example": "This translation is very accurate."
+    },
+    {
+      "word": "pattern",
+      "type": "n",
+      "translation": "modèle / schéma",
+      "definition": "a repeated design or regular way in which something happens",
+      "example": "There is a pattern in his behavior."
+    },
+    {
+      "word": "lie",
+      "type": "v",
+      "translation": "mentir",
+      "definition": "to say something that is not true",
+      "example": "He lied to his teacher."
+    },
+    {
+      "word": "town",
+      "type": "n",
+      "translation": "ville (petite)",
+      "definition": "a place where people live, smaller than a city",
+      "example": "She lives in a small town."
+    },
+    {
+      "word": "lorry",
+      "type": "n",
+      "translation": "camion",
+      "definition": "a large vehicle used for transporting goods (British English)",
+      "example": "The lorry delivered the goods this morning."
+    },
+    {
+      "word": "themselves",
+      "type": "pron",
+      "translation": "eux-mêmes / elles-mêmes",
+      "definition": "used to refer to people or things already mentioned",
+      "example": "They did the work themselves."
     }
   ]
   
