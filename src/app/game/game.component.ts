@@ -146,30 +146,32 @@ export class GameComponent implements OnInit {
   checkAnswer() {
     const userParts = this.userAnswer
       .toLowerCase()
-      .split(',')
+      .split(/[\s,]+/)
       .map(p => p.trim())
       .filter(p => p.length > 0);
   
     const correctPast = this.currentVerb.past.toLowerCase();
     const correctParticiple = this.currentVerb.pastParticiple.toLowerCase();
   
-    const isCorrect =
-      userParts.length === 2 &&
-      userParts.includes(correctPast) &&
-      userParts.includes(correctParticiple);
+    let isCorrect = false;
+
+    // Cas spécial pour les verbes comme "cost" où Past == Participle
+    if (correctPast === correctParticiple) {
+      isCorrect = userParts.filter(p => p === correctPast).length >= 2;
+    } else {
+      isCorrect = userParts.includes(correctPast) && userParts.includes(correctParticiple);
+    }
   
     if (isCorrect) {
       this.feedback = '✅ Correct !';
       this.score++;
     } else {
-      this.feedback = `❌ Mauvaise réponse : ${correctPast}, ${correctParticiple}`;
+      this.feedback = `❌ Faux : ${correctPast}, ${correctParticiple}`;
       this.queue.push(this.currentVerb);
     }
   
-    this.startCountdown(5);
-
-
-    }
+    this.startCountdown(3);
+  }
 
     startCountdown(seconds: number) {
       this.countdown = seconds;
