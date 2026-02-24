@@ -649,6 +649,48 @@
       "translation": "eux-mêmes / elles-mêmes",
       "definition": "used to refer to people or things already mentioned",
       "example": "They did the work themselves."
+    },
+    {
+      "word": "weather",
+      "type": "noun",
+      "translation": "météo",
+      "definition": "The condition of the atmosphere at a particular time and place.",
+      "example": "The weather is very cold today."
+    },
+    {
+      "word": "yet",
+      "type": "adverb",
+      "translation": "encore / déjà (dans les phrases négatives et interrogatives)",
+      "definition": "Used to talk about something that has not happened up to now or that will happen.",
+      "example": "I haven’t finished my homework yet."
+    },
+    {
+      "word": "disease",
+      "type": "noun",
+      "translation": "maladie",
+      "definition": "An illness that affects a person, animal, or plant.",
+      "example": "Smoking can cause serious diseases."
+    },
+    {
+      "word": "towel",
+      "type": "noun",
+      "translation": "serviette",
+      "definition": "A piece of cloth used for drying your body or hands.",
+      "example": "She grabbed a towel after her shower."
+    },
+    {
+      "word": "among",
+      "type": "preposition",
+      "translation": "parmi",
+      "definition": "In the middle of or surrounded by other people or things.",
+      "example": "She was sitting among her friends."
+    },
+    {
+      "word": "worried",
+      "type": "adjective",
+      "translation": "inquiet",
+      "definition": "Feeling nervous or anxious about something.",
+      "example": "He is worried about his exam results."
     }
   ]
   
