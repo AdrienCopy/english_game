@@ -4,7 +4,11 @@
  
 <div class="card">
     <h2>🧠 Irregular Verbs Game</h2>
-    <p>Infinitif : <strong>{{ currentVerb.base }}</strong></p>
+    <p (click)="toggleTranslation()">Infinitif : <strong>{{ currentVerb.base }}</strong></p>
+
+    <p *ngIf="showTranslation" class="translation-hint">
+      Traduction : <strong>{{ currentVerb.translation }}</strong>
+    </p>
   
     <input
       [(ngModel)]="userAnswer"

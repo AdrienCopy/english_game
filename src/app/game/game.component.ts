@@ -123,6 +123,7 @@ export class GameComponent implements OnInit {
   queue: Verb[] = []; 
   countdown: number | null = null;
   countdownInterval: any;
+  showTranslation: boolean = false;
 
   ngOnInit() {
     this.queue = [...this.verbs]; 
@@ -141,6 +142,11 @@ export class GameComponent implements OnInit {
 
     this.userAnswer = '';
     this.feedback = '';
+    this.showTranslation = false;
+  }
+
+  toggleTranslation() {
+    this.showTranslation = !this.showTranslation;
   }
 
   checkAnswer() {
@@ -188,5 +194,4 @@ export class GameComponent implements OnInit {
         }
       }, 1000);
     }
-  
 }
