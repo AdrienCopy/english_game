@@ -691,6 +691,41 @@
       "translation": "inquiet",
       "definition": "Feeling nervous or anxious about something.",
       "example": "He is worried about his exam results."
+    },
+    {
+      "word": "huge",
+      "type": "adjective",
+      "translation": "énorme",
+      "definition": "Very big or very large.",
+      "example": "They live in a huge house."
+    },
+    {
+      "word": "solve",
+      "type": "verb",
+      "translation": "résoudre",
+      "definition": "To find an answer to a problem or question.",
+      "example": "She solved the math problem quickly."
+    },
+    {
+      "word": "soap",
+      "type": "noun",
+      "translation": "savon",
+      "definition": "A substance used for washing and cleaning.",
+      "example": "Wash your hands with soap and water."
+    },
+    {
+      "word": "soap opera",
+      "type": "noun",
+      "translation": "feuilleton / série dramatique",
+      "definition": "A television or radio drama series about the lives of a group of characters.",
+      "example": "My grandmother watches a soap opera every evening."
+    },
+    {
+      "word": "lab",
+      "type": "noun",
+      "translation": "laboratoire",
+      "definition": "A place where scientific experiments are done.",
+      "example": "The students are working in the science lab."
     }
   ]
   
