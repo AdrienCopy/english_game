@@ -152,28 +152,38 @@ export class GameComponent implements OnInit {
   checkAnswer() {
     const userParts = this.userAnswer
       .toLowerCase()
-      .split(/[\s,]+/)
+      //.split(/[\s,]+/)
+      .split(/[\s,/;]+/)
       .map(p => p.trim())
       .filter(p => p.length > 0);
-  
+
     const correctPast = this.currentVerb.past.toLowerCase();
     const correctParticiple = this.currentVerb.pastParticiple.toLowerCase();
-  
+
+
+    const correctWords = `${this.currentVerb.past} ${this.currentVerb.pastParticiple}`
+    .toLowerCase()
+    .split(/[\s,/;]+/)
+    .map(w => w.trim())
+    .filter(w => w.length > 0);
+
     let isCorrect = false;
 
-    // Cas spécial pour les verbes comme "cost" où Past == Participle
     if (correctPast === correctParticiple) {
-      isCorrect = userParts.filter(p => p === correctPast).length >= 2;
-    } else {
-      isCorrect = userParts.includes(correctPast) && userParts.includes(correctParticiple);
+      const occurrences = userParts.filter(w => w === correctPast).length;
+      isCorrect = occurrences >= 2;
+    } 
+    else {
+      isCorrect = correctWords.every(word => userParts.includes(word));
     }
-  
+
     if (isCorrect) {
       this.feedback = '✅ Correct !';
       this.score++;
     } else {
-      this.feedback = `❌ Faux : ${correctPast}, ${correctParticiple}`;
-      this.queue.push(this.currentVerb);
+      this.feedback = `❌ Faux : ${this.currentVerb.past}, ${this.currentVerb.pastParticiple}`;
+      const delay = Math.min(4, this.queue.length);
+      this.queue.splice(delay, 0, this.currentVerb);
     }
   
     this.startCountdown(3);
