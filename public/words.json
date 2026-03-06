@@ -726,6 +726,174 @@
       "translation": "laboratoire",
       "definition": "A place where scientific experiments are done.",
       "example": "The students are working in the science lab."
+    },
+    {
+      "word": "react",
+      "type": "verb",
+      "translation": "réagir",
+      "definition": "to respond to something that happens",
+      "example": "She didn't know how to react to the news."
+    },
+    {
+      "word": "earn",
+      "type": "verb",
+      "translation": "gagner (de l'argent)",
+      "definition": "to receive money for work",
+      "example": "He earns a good salary."
+    },
+    {
+      "word": "cloud",
+      "type": "noun",
+      "translation": "nuage",
+      "definition": "a white or grey mass in the sky made of water vapor",
+      "example": "Dark clouds are covering the sky."
+    },
+    {
+      "word": "greet",
+      "type": "verb",
+      "translation": "saluer",
+      "definition": "to say hello to someone",
+      "example": "She greeted her teacher politely."
+    },
+    {
+      "word": "furniture",
+      "type": "noun",
+      "translation": "meubles",
+      "definition": "objects such as tables, chairs, and beds used in a house",
+      "example": "They bought new furniture for the living room."
+    },
+    {
+      "word": "keywords",
+      "type": "noun",
+      "translation": "mots-clés",
+      "definition": "important words used to describe or search for something",
+      "example": "Use keywords to find information online."
+    },
+    {
+      "word": "layout",
+      "type": "noun",
+      "translation": "mise en page",
+      "definition": "the arrangement of text and images on a page",
+      "example": "The layout of the website is very clean."
+    },
+    {
+      "word": "wise",
+      "type": "adjective",
+      "translation": "sage",
+      "definition": "showing good judgment and experience",
+      "example": "It was a wise decision."
+    },
+    {
+      "word": "well-behaved",
+      "type": "adjective",
+      "translation": "bien élevé",
+      "definition": "behaving politely and correctly",
+      "example": "The children were very well-behaved."
+    },
+    {
+      "word": "make a mess",
+      "type": "verb",
+      "translation": "mettre le désordre",
+      "definition": "to make a place untidy",
+      "example": "The kids made a mess in the kitchen."
+    },
+    {
+      "word": "schedule",
+      "type": "noun",
+      "translation": "emploi du temps",
+      "definition": "a plan that shows times for activities",
+      "example": "My schedule is very busy this week."
+    },
+    {
+      "word": "might",
+      "type": "modal auxiliary",
+      "translation": "pourrait",
+      "definition": "used to express possibility",
+      "example": "It might rain later."
+    },
+    {
+      "word": "increase",
+      "type": "verb/noun",
+      "translation": "augmenter / augmentation",
+      "definition": "to become or make something greater",
+      "example": "Prices increased last year."
+    },
+    {
+      "word": "flu",
+      "type": "noun",
+      "translation": "grippe",
+      "definition": "a common infectious illness with fever and aches",
+      "example": "She stayed home because she had the flu."
+    },
+    {
+      "word": "throw",
+      "type": "verb",
+      "translation": "lancer",
+      "definition": "to send something through the air with force",
+      "example": "He threw the ball to his friend."
+    },
+    {
+      "word": "ashamed",
+      "type": "adjective",
+      "translation": "honteux",
+      "definition": "feeling embarrassed or guilty about something",
+      "example": "He felt ashamed of his behavior."
+    },
+    {
+      "word": "drug",
+      "type": "noun",
+      "translation": "médicament / drogue",
+      "definition": "a substance used as medicine or illegally",
+      "example": "The doctor prescribed a new drug."
+    },
+    {
+      "word": "otherwise",
+      "type": "adverb",
+      "translation": "sinon / autrement",
+      "definition": "used to say what will happen if something else does not happen",
+      "example": "Hurry up, otherwise we will be late."
+    },
+    {
+      "word": "weak",
+      "type": "adjective",
+      "translation": "faible",
+      "definition": "not strong",
+      "example": "He felt weak after being sick."
+    },
+    {
+      "word": "foreign",
+      "type": "adjective",
+      "translation": "étranger",
+      "definition": "coming from another country",
+      "example": "She loves learning foreign languages."
+    },
+    {
+      "word": "fair",
+      "type": "adjective",
+      "translation": "juste / équitable",
+      "definition": "treating people equally and reasonably",
+      "example": "The teacher was fair with all students."
+    },
+    {
+      "word": "matter",
+      "type": "noun",
+      "translation": "affaire / sujet",
+      "definition": "a subject or situation that needs attention",
+      "example": "This is an important matter."
+    },
+    {
+      "word": "wheel",
+      "type": "noun",
+      "translation": "roue",
+      "definition": "a circular object that turns and allows vehicles to move",
+      "example": "The car has four wheels."
+    },
+    {
+      "word": "overall",
+      "type": "adjective/adverb",
+      "translation": "globalement / dans l'ensemble",
+      "definition": "considering everything",
+      "example": "Overall, the project was a success."
     }
   ]
   
