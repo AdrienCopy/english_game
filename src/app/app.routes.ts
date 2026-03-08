@@ -4,6 +4,7 @@ import { GameComponent } from './game/game.component';
 import { DictionaryComponent } from './dictionary/dictionary.component';
 import { WordOfTheDayComponent } from './word-of-the-day/word-of-the-day.component';
 import { GameWordOfTheDayComponent } from './game-word-of-the-day/game-word-of-the-day.component';
+import { PresentationComponent } from './presentation/presentation.component';
 
 export const appRoutes: Routes = [
     { path: '', component: HomeComponent },
@@ -11,5 +12,6 @@ export const appRoutes: Routes = [
     { path: 'dictionary', component: DictionaryComponent },
     { path: 'word-of-the-day', component: WordOfTheDayComponent },
     { path: 'game-word-of-the-day', component: GameWordOfTheDayComponent }, 
+    { path: 'presentation', component: PresentationComponent },
     { path: '**', redirectTo: '' }
 ];

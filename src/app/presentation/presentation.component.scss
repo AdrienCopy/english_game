@@ -1,0 +1,64 @@
+.slider {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    width: 75%;
+    margin: 2rem auto;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  .caption {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    padding: 0.4rem 0.8rem;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+    background: #66a6ff;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s, background 0.2s;
+  }
+  
+  .nav:hover:not(:disabled) {
+    background: #4d90fe;
+    transform: scale(1.05);
+  }
+  
+  .nav:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+  
+  .counter {
+    font-size: 0.9rem;
+    opacity: 0.7;
+  }
+  

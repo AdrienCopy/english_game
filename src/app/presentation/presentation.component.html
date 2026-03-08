@@ -1,0 +1,25 @@
+<div class="slider">
+
+    <img
+      [src]="currentSlide.image"
+      alt="presentation slide"
+    />
+  
+    <p class="caption">
+      {{ currentSlide.caption }}
+    </p>
+  
+    <div class="controls">
+        <button class="nav prev" (click)="previous()" [disabled]="currentIndex === 0">
+          ‹
+        </button>
+      
+        <span class="counter">{{ currentIndex + 1 }} / {{ slides.length }}</span>
+      
+        <button class="nav next" (click)="next()" [disabled]="currentIndex === slides.length - 1">
+          ›
+        </button>
+      </div>
+  
+  </div>
+  
